@@ -1,0 +1,40 @@
+:root {
+  --border-color: #00293d;
+  /* BUTTON HEX */
+  --dark: #222222;
+  --orange-pantone: #fb5607ff;
+  --winter-sky: #ff006eff;
+  --blue-violet: #8338ecff;
+  --azure: #3a86ffff;
+  --background: #001b29;
+  --white: rgba(245, 251, 239, 0.6);
+  --btn-white: rgb(245, 251, 239);
+  --green: rgb(64, 249, 155);
+}
+
+.btn {
+  padding: 0.7rem 3rem;
+  border: none;
+  border-radius: 3px;
+  color: var(--btn-white);
+  font-family: inherit;
+  letter-spacing: 1.6;
+}
+
+.btn:first-child {
+  background-color: var(--orange-pantone);
+  /* color: #f4f4f4; */
+}
+
+.btn:nth-child(2) {
+  background-color: var(--dark);
+  /* color: #f4f4f4; */
+}
+.btn:nth-child(3) {
+  background-color: var(--blue-violet);
+  /* color: #f4f4f4; */
+}
+.btn:nth-child(4) {
+  background-color: var(--winter-sky);
+  /* color: #f4f4f4; */
+}
