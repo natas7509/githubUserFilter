@@ -19,6 +19,9 @@ class UI {
       <button class="btn">Followers: ${user.followers}</button>
       <button class="btn">Following: ${user.following}</button>
     </div>
+    <div class="info-heading">
+      <h2>Info</h2>
+    </div>
     <div class="cards">
       <div class="card-info">
         <h2>Company: ${user.company}</h2>
@@ -38,7 +41,7 @@ class UI {
 
 <div class="repo-container">
     <div class="repo-heading">
-        <h1>Latest Repos</h1>
+        <h2>Latest Repos</h2>
     </div>
 
     <div id="repos"></div>

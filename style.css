@@ -12,6 +12,8 @@
 body {
   font-family: 'Montserrat', sans-serif;
   font-size: 1.2rem;
+  letter-spacing: 1.6;
+  line-height: 1.4;
   background-color: var(--background);
   color: var(--white);
 }
@@ -37,6 +39,10 @@ body {
   border: 1px solid var(--border-color);
   border-radius: 3px;
   padding: 1rem;
+}
+
+.lead {
+  color: var(--green);
 }
 
 input {
@@ -136,7 +142,11 @@ img {
 
 .repo-heading {
   padding: 1rem 0;
-  margin: 1rem;
+  margin-left: 1rem;
+}
+
+.info-heading {
+  padding: 1rem 0;
 }
 
 .repo-container {
@@ -158,10 +168,16 @@ footer {
 
 footer p {
   font-size: 0.8rem;
+  margin-left: 1rem;
 }
 
 @media only screen and (max-width: 500px) {
   nav .navbar-brand {
     font-size: 1rem;
+    /* text-align: center; */
+  }
+
+  .btn {
+    width: 100%;
   }
 }
