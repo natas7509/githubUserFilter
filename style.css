@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;700&family=Montserrat&display=swap');
 
 @import 'css/utils.css';
+@import 'css/media.css';
 
 * {
   box-sizing: border-box;
@@ -49,15 +50,11 @@ input {
   margin: 0.7rem 0;
 }
 
-nav {
-  background-color: var(--background);
-  padding: 1rem 0;
-  margin-bottom: 2rem;
-}
-
 nav .navbar-brand {
   color: var(--green);
   text-decoration: none;
+  text-transform: uppercase;
+  padding: 2rem 0;
 }
 
 .profile-container {
@@ -80,6 +77,7 @@ nav .navbar-brand {
 
 .profile-img a {
   text-decoration: none;
+  text-align: center;
   padding: 0.7rem;
   border: none;
   border-radius: 3px;

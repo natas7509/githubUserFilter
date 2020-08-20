@@ -15,6 +15,7 @@ class Github {
     const repoResponse = await fetch(
       `https://api.github.com/users/${user}/repos?per_page=${this.repos_count}&sort=${this.repos_sort}&client_id=${this.client_id}&client_secret=${this.client_secret}`
     );
+
     console.log(user);
 
     const profile = await profileResponse.json();
@@ -28,3 +29,11 @@ class Github {
 }
 
 // NEW GITHUB OAUTH FORMAT
+
+// const auth = btoa(`${this.client_id}:${this.client_secret}`)
+
+// fetch(`https://api.github.com/users/${encodeURIComponent(user)}`, {
+//   headers: {
+//     Authorization: `Basic ${auth}`
+//   }
+// })
